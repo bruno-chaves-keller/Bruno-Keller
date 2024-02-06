@@ -1,14 +1,17 @@
+<body>
+
 <p style="color: green"><%= notice %></p>
 
-<h1>Lists</h1>
-
-<div id="lists">
-  <% @lists.each do |list| %>
-    <%= render list %>
-    <p>
-      <%= link_to "Show this list", list %>
-    </p>
-  <% end %>
+<div class="container mt-4">
+  <table class="table table-bordered">
+    <tbody>
+      <div id="lists">
+        <% @lists.each do |list| %>
+          <%= render partial: 'list', locals: { list: list } %>
+        <% end %>
+      </div>
+    </tbody>
+  </table>
 </div>
 
-<%= link_to "New list", new_list_path %>
+</body>

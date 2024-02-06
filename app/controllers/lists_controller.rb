@@ -34,6 +34,21 @@ class ListsController < ApplicationController
     end
   end
 
+  def create_task
+    @list = List.new(list_params)
+
+    respond_to do |format|
+      if @list.save
+        format.html { redirect_to root_url, notice: "Task was successfully created." }
+        format.json { render :show, status: :created, location: @list }
+      else
+        format.html { render :new, status: :unprocessable_entity }
+        format.json { render json: @list.errors, status: :unprocessable_entity }
+      end
+    end
+  end
+
+
   # PATCH/PUT /lists/1 or /lists/1.json
   def update
     respond_to do |format|

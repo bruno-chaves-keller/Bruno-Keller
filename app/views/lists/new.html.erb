@@ -1,9 +1,13 @@
-<h1>New list</h1>
+<body>
 
-<%= render "form", list: @list %>
+<div class="container-new_list" style="max-width: 400px; margin: 70px auto 20px auto; padding: 20px; border: 1px solid #ccc; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1);">
 
-<br>
+  <%= render "form", list: @list %>
 
-<div>
+  <br>
+
   <%= link_to "Back to lists", lists_path %>
+
 </div>
+
+</body>
