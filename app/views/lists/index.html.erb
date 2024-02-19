@@ -1,17 +1,14 @@
-<body>
-
-<p style="color: green"><%= notice %></p>
-
 <div class="container mt-4">
-  <table class="table table-bordered">
-    <tbody>
-      <div id="lists">
-        <% @lists.each do |list| %>
-          <%= render partial: 'list', locals: { list: list } %>
-        <% end %>
-      </div>
-    </tbody>
-  </table>
+      <table class="table table-bordered">
+        <tbody>
+          <div id="lists">
+            <% @lists.each do |list| %>
+              <%= render partial: 'list', locals: { list: list } %>
+            <% end %>
+          </div>
+        </tbody>
+      </table>
 </div>
 
-</body>
+<%= link_to 'Delete Marked Items', home_trash_em_path, class: "text-decoration-none text-reset p-2" %> |
+<%= link_to 'Delete All Items', home_trash_em_all_path, class: "text-decoration-none text-reset p-2" %>

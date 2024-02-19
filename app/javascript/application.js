@@ -4,3 +4,4 @@ import "controllers"
 //= require jquery3
 //= require popper
 //= require bootstrap-sprockets
+// app/javascript/controllers/application.js
