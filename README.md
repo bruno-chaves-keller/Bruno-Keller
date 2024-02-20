@@ -1,25 +1,55 @@
-# README
+## ToDo_List App
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A simple to-do list application built with Ruby on Rails.
 
-Things you may want to cover:
+## Overview
+This project is a basic to-do list application developed using the Ruby on Rails framework. It provides essential functionalities for managing your daily tasks.
 
-* Ruby version
+## Features
+Add, edit, and delete tasks.
 
-* System dependencies
+Mark tasks as completed.
 
-* Configuration
+Intuitive task list view.
 
-* Database creation
+## Technologies Used
+Ruby on Rails
+HTML;
+CSS;
+JavaScript;
+Bootstrap.
 
-* Database initialization
+## How to use
+Prerequisites
+Ruby,
+Rails
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
+## Installation
+1. Clone the repository:
+   git clone https://github.com/bruno-chaves-keller/to-do-list.git
 
-* Deployment instructions
+2. Install dependencies:
+   bundle install
 
-* ...
-# to-do_App
+3. Configure the database:
+   rails db:create
+   rails db:migrate
+
+4. Start the server:
+   rails server
+
+5. Access the application at http://localhost:3000.
+
+## Screenshots
+
+![Screenshot 2024-02-20 100733](https://github.com/bruno-chaves-keller/to-do_App/assets/136998901/04be81d5-d0de-4c4e-bd9c-9fe9e5130855)
+![Screenshot 2024-02-20 100812](https://github.com/bruno-chaves-keller/to-do_App/assets/136998901/c78928ac-b64b-44fc-b7d2-c0f79781e5f8)
+![Screenshot 2024-02-20 100835](https://github.com/bruno-chaves-keller/to-do_App/assets/136998901/f7340b90-8b00-4f6e-9f1d-9e8ec9927d4e)
+
+## Contributing
+Contributions are welcome! Feel free to open issues and pull requests.
+
+
+
+
