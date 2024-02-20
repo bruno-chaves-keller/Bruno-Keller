@@ -13,7 +13,7 @@ Mark tasks as completed.
 Intuitive task list view.
 
 ## Technologies Used
-Ruby on Rails
+Ruby on Rails;
 HTML;
 CSS;
 JavaScript;
